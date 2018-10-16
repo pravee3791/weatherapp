@@ -4,7 +4,7 @@ function updateWeather(data,callback) {
   
 console.log(data)
 
-   var  url= 'http://api.openweathermap.org/data/2.5/forecast?lat='+data.lat+'&lon='+data.lng+'&APPID=20628584bff8af6f425763fa7a030acc'
+   var  url= 'https://api.openweathermap.org/data/2.5/forecast?lat='+data.lat+'&lon='+data.lng+'&APPID=20628584bff8af6f425763fa7a030acc'
     fetch(url,{
         headers : { 
           'Accept': 'application/json'
